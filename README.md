@@ -84,75 +84,82 @@ Total_people and Total_stay are two columns that are added to the given dataset.
 ### EDA:
 The EDA is done by using 3 analyses Univariate, Bivariate and Multivariate analysis. For the data visualization following charts are used:
 
-Pie chart
+1. Pie chart
 
-Barplot
+2. Barplot
 
-Countplot
+3. Countplot
 
-Lineplot
+4. Lineplot
 
-Heatmap
+5. Heatmap
 
-#### Univariate analysis:
+### Univariate analysis:
 In univariate analysis following questions are tried to solve:
 
-Which type of hotel is mostly preferred by the guests?
-Which agent made the most bookings?
-What is the percentage of repeated guests?
-What is the most preferred room type by the customers?
-What type of food is mostly preferred by the guests?
-In which month most of the bookings happened?
-Which distribution channel is mostly used for hotel booking?
-which year had the highest bookings?
+1. Which type of hotel is mostly preferred by the guests?
+2. Which agent made the most bookings?
+3. What is the percentage of repeated guests?
+4. What is the most preferred room type by the customers?
+5. What type of food is mostly preferred by the guests?
+6. In which month most of the bookings happened?
+7. Which distribution channel is mostly used for hotel booking?
+8. Which year had the highest bookings?
 
-### Conclusion:
-City hotel has more bookings.
-Agent no. 9 made most of the bookings.
-There are very few guests booking for the same hotel again.
-Type A rooms are the most preferred rooms.
-BB-type food is the most preferred food.
-August month has a maximum number of bookings.
-The mostly used distribution channel is TA/TO channel.
-2016 has the highest bookings.
-Bivariate and Multivariate analysis:
+#### Conclusion:
 
-### In bivariate and multivariate analysis following questions are tried to solve:
+1. City hotel has more bookings.
+2. Agent No. 9 made most of the bookings.
+3. There are very few guests booking for the same hotel again.
+4. Type A rooms are the most preferred rooms.
+5. BB-type food is the most preferred food.
+6. August month has a maximum number of bookings.
+7. The mostly used distribution channel is TA/TO channel.
+8. 2016 has the highest bookings.
 
-Which hotel type has the highest ADR?
-which hotel has a longer waiting time?
-Which distribution channel contributed more to adr to increase the income?
-What is the optimal stay length in both types of hotels?
-Relationship between the repeated guests and previous bookings not cancelled?
-Relationship between ADR and the total number of people?
+### Bivariate and Multivariate analysis:
+In bivariate and multivariate analysis following questions are tried to solve:
 
-### Conclusion:
-City hotel has highest adr.
-City hotel has longer waiting time.
-GDS distribution channel contributed more to ADR in city hotels.
-The optimal stay length in both hotel types is less than 7 days.
-Repeated guests do not cancel their bookings.
-The number of people increases adr also going to increase.
+1. Which hotel type has the highest ADR?
+2. which hotel has a longer waiting time?
+3. Which distribution channel contributed more to adr to increase income?
+4. What is the optimal stay length in both types of hotels?
+5. Relationship between the repeated guests and previous bookings not cancelled?
+6. Relationship between ADR and the total number of people?
+7. Relationship between ADR and the total stay?
+
+#### Conclusion:
+
+1. City hotel has the highest adr.
+2. City hotel has longer waiting time.
+3. GDS distribution channel contributed more to ADR in city hotels.
+4. The optimal stay length in both hotel types is less than 7 days.
+5. Repeated guests do not cancel their bookings.
+6. As the number of people increases adr also increases.
+7. There is a positive relationship between adr and total_stay and it indicates that most of the guests tend to stay for at least 7 days.
 
 
-### The conclusion from correlation heatmap:
-arrival_date_year and arrival_date_week_number columns have a negative correlation which is -0.51.
-stays_in_week_nights and total_stay have a positive correlation which is 0.95.
+#### The conclusion from the correlation heatmap:
+
+1. arrival_date_year and arrival_date_week_number columns have a negative correlation which is -0.51.
+2. stays_in_week_nights and total_stay have a positive correlation which is 0.95.
 
 ### Overall conclusion:
-City hotel has almost 60% of bookings and resort hotel has 40% of bookings.
-Agent no. 9 made the most bookins and those bookings are 28721.
-The percentage of repeated guests is just 4%.
-Room type A is the most preferred room type 46283 guests preferred A room type.
-BB type food is most preferred food type and 67907 preferred this food.
-August month has a maximum number of bookings and those bookings are 11242.
-TA/TO distribution channel is a mostly preferred channel and the bookings are 69028.
-The 2016 year has 42313 bookings.
-City hotel has the highest ADR and the average ADR is 111.27.
-City hotel has longer waiting time means city hotel is busy hotel type.
-GDS contribution channel contributed more to ADR in order to increase income in city hotels.
-The optimal stay length in both hotel types is less than 7 days.
-Repeated customers do not cancel their bookings.
-The number of people increases ADR increases.
-arrival_date_year and arrival_date_week_number columns have a negative correlation which is -0.51.
-stays_in_week_nights and total_stay have a positive correlation which is 0.95.
+
+1. City hotel has almost 60% of bookings and resort hotel has 40% of bookings.
+2. Agent no. 9 made the most bookins and those bookings are 28721.
+3. The percentage of repeated guests is just 4%.
+4. Room type A is the most preferred room type 46283 guests preferred A room type.
+5. BB type food is the most preferred food type and 67907 preferred this food.
+6. August month has a maximum number of bookings and those bookings are 11242.
+7. TA/TO distribution channel is the mostly preferred channel and the bookings are 69028.
+8. The 2016 year has 42313 bookings.
+9. City hotel has the highest ADR and the average ADR is 111.27.
+10. City hotel has longer waiting time means city hotel is busy hotel type.
+11. GDS contribution channel contributed more to ADR in order to increase income in city hotels.
+12. The optimal stay length in both hotel types is less than 7 days.
+13. Repeated customers do not cancel their bookings.
+14. The number of people increases ADR increases.
+15. arrival_date_year and arrival_date_week_number columns have a negative correlation which is -0.51.
+16. stays_in_week_nights and total_stay have a positive correlation which is 0.95.
+17. Line plot is used to show the relationship between adr and total_stay and it indicates that they both have a positive correlation.
