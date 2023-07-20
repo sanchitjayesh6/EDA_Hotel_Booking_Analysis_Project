@@ -1,6 +1,7 @@
 # EDA_Hotel_Booking_Analysis_Project
 
 ### Objective:
+
 In this project, I am exploring and analyzing the Hotel Booking Dataset. The main objective of this project is to explore the given dataset, find practical conclusions about general hotel booking trends, and discover how these factors affect the hospitality business.
 
 ### Dataset:
@@ -73,15 +74,19 @@ reservation_status_date: The date at which the last reservation status was updat
 ### Data cleaning and manipulation:
 
 Duplicate values
+
 The dataset has 31994 duplicate values. So these duplicate values are removed from the dataset using the drop_duplicates() function. After dropping the duplicate values shape of the dataset becomes 87396 rows and 32 columns.
 
 Missing values/null values
+
 Given dataset have 4 columns company, agent, country and children having missing values so these values are replaced by using the fillna() function.
 
 Addition of new columns
+
 Total_people and Total_stay are two columns that are added to the given dataset. Some rows are removed from columns adults, children and babies which have 0 values.
 
 ### EDA:
+
 The EDA is done by using 3 analyses Univariate, Bivariate and Multivariate analysis. For the data visualization following charts are used:
 
 1. Pie chart
@@ -95,6 +100,7 @@ The EDA is done by using 3 analyses Univariate, Bivariate and Multivariate analy
 5. Heatmap
 
 ### Univariate analysis:
+
 In univariate analysis following questions are tried to solve:
 
 1. Which type of hotel is mostly preferred by the guests?
@@ -118,6 +124,7 @@ In univariate analysis following questions are tried to solve:
 8. 2016 has the highest bookings.
 
 ### Bivariate and Multivariate analysis:
+
 In bivariate and multivariate analysis following questions are tried to solve:
 
 1. Which hotel type has the highest ADR?
