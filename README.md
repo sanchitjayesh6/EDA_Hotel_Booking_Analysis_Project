@@ -73,15 +73,15 @@ reservation_status_date: The date at which the last reservation status was updat
 
 ### Data cleaning and manipulation:
 
-Duplicate values
+#### Duplicate values
 
 The dataset has 31994 duplicate values. So these duplicate values are removed from the dataset using the drop_duplicates() function. After dropping the duplicate values shape of the dataset becomes 87396 rows and 32 columns.
 
-Missing values/null values
+#### Missing values/null values
 
 Given dataset have 4 columns company, agent, country and children having missing values so these values are replaced by using the fillna() function.
 
-Addition of new columns
+#### Addition of new columns
 
 Total_people and Total_stay are two columns that are added to the given dataset. Some rows are removed from columns adults, children and babies which have 0 values.
 
